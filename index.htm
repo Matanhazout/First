@@ -1,62 +1,14 @@
-<html><script type="text/javascript" src="chrome-extension://ffljdddodmkedhkcjhpmdajhjdbkogke/js/datalayer-checker.js"></script><head><meta name="color-scheme" content="light dark"><script>
-			window.SBX_dlc=window.SBX_dlc||{};
-			window.SBX_dlc.settings=JSON.parse("{\"consoleLog\":false,\"eventColors\":true,\"eventCustomColors\":{\"custom1\":\"\",\"custom2\":\"\",\"custom3\":\"\"},\"gtmInjectId\":\"\",\"gtmInjectRule\":\"\",\"preventDefault\":false,\"jsonDefaultViewMode\":false}");
-		</script>
+<html><head>
 	<script type="text/javascript" id="_cls_detector" src="https://raw.githubusercontent.com/Matanhazout/First/main/detector-dom.min.js" async="true" data-clsconfig="reportURI=https://report.gbdemo.glassboxdigital.io/glassbox/reporting/cls_report;"></script>
-	</head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">/*
+	</head><body>
  * Version:  6.6.90B188  
  * Copyright (c) 16-02-2023 GlassBox http://www.glassboxdigital.com
  */
  
 
-if(typeof _cls_config === "undefined") _cls_config = {};
-
-/* BEGIN ajax */
-_cls_config.ajaxRecordMetadata="tld";  
-_cls_config.ajaxRecordRequestBody="tld";
-_cls_config.ajaxRecordRequestHeaders="tld";
-_cls_config.ajaxRecordResponseBody="tld";
-_cls_config.ajaxRecordResponseHeaders="tld";
-_cls_config.interceptAjax=true;
-_cls_config.ajaxRecordStats="always";
-/* END ajax */
-
-
-/*BEGIN MASKING*/
-
-//Value Masking (INPUT)
-_cls_config.valueMaskingMode = "whitelist";
-_cls_config.maskWhitelistValueById = ["q_search_box"]; //Everything is masked EXCEPT FOR listed inputs that match an Id , This is only applied when valueMaskingMode is set to 'whitelist'
-_cls_config.maskBlacklistValueById = []; //Only listed inputs with a matching Id are masked , This is only applied when valueMaskingMode is set to 'blacklist'.
-_cls_config.maskWhitelistValueByClass = []; //Everything is masked EXCEPT FORlisted inputs that match a class , This is only applied when valueMaskingMode is set to 'whitelist'.
-_cls_config.maskBlacklistValueByClass = []; //Only listed inputs with a matching Class are masked , This is only applied when valueMaskingMode is set to 'blacklist'.
-_cls_config.valueWhitelistMaskSimpleSelector = []; //EVERYTHING is masked EXCEPT FOR this list of selectors , This is only applied when valueMaskingMode is set to 'whitelist'.
-_cls_config.valueBlacklistMaskSimpleSelector = []; //Only listed inputs with a matching selector are masked. , This is only applied when valueMaskingMode is set to 'blacklist'.
-
-//DOM Masking
-_cls_config.domMaskingMode = "blacklist";
-_cls_config.domWhitelistMaskContentById = []; //ALL text is masked EXCEPT FOR this list of Ids. This supports a single wildcard, such as *. This is only applied when domMaskingMode is set to 'whitelist'.
-_cls_config.domBlacklistMaskContentById = []; //ONLY text matched to this list of Ids is masked. This supports a single wildcard, such as *. This is only applied when domMaskingMode is set to 'blacklist'.
-_cls_config.domWhitelistMaskContentByClass = []; //ALL text is masked EXCEPT FOR this list of classes. This supports a single wildcard, such as *. This is only applied when domMaskingMode is set to 'whitelist'.
-_cls_config.domBlacklistMaskContentByClass = ["message-personal","text-input-container"]; //ONLY text matched to this list of classes is masked. This supports a single wildcard, such as *. This is only applied when domMaskingMode is set to 'blacklist'.
-_cls_config.domWhitelistMaskSimpleSelector = []; //ALL text is masked, EXCEPT FORthe listed selectors. This is only applied when domMaskingMode is set to 'whitelist'.
-_cls_config.domBlacklistMaskSimpleSelector = []; //ONLY text matched to this list of selectors is masked.This is only applied when domMaskingMode is set to 'blacklist'.
-
-/*END MASKING*/
-
 /* iFrame recording start*/
 _cls_config.iframesAutoInject=true;
-/* iFrame recording end*/
 
-/* Mouse movements start*/
-_cls_config.recordMouseMoves=true; 
-_cls_config.recordScrolls=true; 
-_cls_config.recordHovers=true;
-/* Mouse movements end*/
-
-/* Client Attributes start*/
-_cls_config.clientAttributesEnabled = true;
-_cls_config.clientAttributeMaxLength=500;
 /* Client Attributes start*/
 
 
